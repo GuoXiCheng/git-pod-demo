@@ -1,5 +1,8 @@
+import pandas as pd
+
 def main():
-    print('hello world')
+    df = pd.DataFrame({"site": ["google", "baidu"], "age": [18, 22]})
+    print(df)
 
 
 if __name__ == '__main__':
